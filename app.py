@@ -18,8 +18,8 @@ male = st.radio("Gender", options=[1, 0], format_func=lambda x: "Male" if x == 1
 married = st.radio("Marital Status", options=[1, 0], format_func=lambda x: "Married" if x == 1 else "Not Married")
 white = st.radio("Race", options=[1, 0], format_func=lambda x: "White" if x == 1 else "Non-White")
 college_grad = st.radio("Education", options=[1, 0], format_func=lambda x: "College Graduate" if x == 1 else "Not a Graduate")
-nrc = st.radio("Non-resident Citizen", options=[1, 0], format_func=lambda x: "Yes" if x == 1 else "No")
-nrm = st.radio("Non-resident Mother", options=[1, 0], format_func=lambda x: "Yes" if x == 1 else "No")
+nrc = st.radio("Non-recursive Cognitive", options=[1, 0], format_func=lambda x: "Yes" if x == 1 else "No")
+nrm = st.radio("Non-recursive Manual", options=[1, 0], format_func=lambda x: "Yes" if x == 1 else "No")
 metro_flag = st.radio("Lives in Metro Area", options=[1, 0], format_func=lambda x: "Yes" if x == 1 else "No")
 
 # On button click, predict the probability
