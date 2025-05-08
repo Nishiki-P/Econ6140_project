@@ -9,7 +9,7 @@ st.title("Remote Work Probability Predictor (COVID Period)")
 
 st.write("""
 This app estimates the probability that an individual was working remotely due to COVID-19  
-(from May 2020 to September 2022), based on selected demographic and geographic features.
+(from May 2020 to September 2022), based on demographic and geographic features, data resources: IPUS CPS & CDC
 """)
 
 # User inputs for the features
